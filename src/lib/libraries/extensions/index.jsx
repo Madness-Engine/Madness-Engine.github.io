@@ -1070,6 +1070,18 @@ const menuItems = [
     }
 ];
 
+/*
+----------------------------------------------
+### NOTE TO PENGUINMOD FORKS: ###
+Please DO NOT make the extensions below accessible in the editor without livetests!
+They are NOT fully developed for people to use and create full projects with!
+
+These extensions could have missing features, cause random errors, broken projects, or even crash the editor!
+Moving these into the main extension list will cause people who use your fork to assume they are ready for them to use!
+
+Please keep these in livetests to reduce bug reports on your fork! :)
+----------------------------------------------
+*/
 if (IsLocal || IsLiveTests) {
     const extras = [
         {

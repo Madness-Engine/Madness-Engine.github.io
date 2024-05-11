@@ -118,6 +118,9 @@
 .custom-stage-size-button[data-widescreen="true"] {
     width: 224px;
 }
+.custom-stage-size-button[data-square="true"] {
+    width: 126px;
+}
 .custom-stage-size-button[data-selected="true"] {
     border-color: $motion-primary;
 }

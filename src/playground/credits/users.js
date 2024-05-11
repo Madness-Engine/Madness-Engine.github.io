@@ -163,11 +163,6 @@ const pmTranslators = [
         href: "https://studio.penguinmod.com/credits.html#",
     },
     {
-        text: 'Youh',
-        image: `https://penguinmod.com/unknown_user.png`,
-        href: "https://studio.penguinmod.com/credits.html#",
-    },
-    {
         text: 'n0name',
         image: `https://penguinmod.com/unknown_user.png`,
         href: "https://studio.penguinmod.com/credits.html#",
@@ -214,8 +209,8 @@ const pmTranslators = [
     },
     {
         text: 'SmolBoi37',
-        image: `https://trampoline.turbowarp.org/avatars/by-username/SmolBoi37`,
-        href: "https://penguinmod.com/profile?user=SmolBoi37",
+        image: `https://penguinmod.com/unknown_user.png`,
+        href: "https://studio.penguinmod.com/credits.html#",
     },
     {
         text: 'GigantTech',

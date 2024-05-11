@@ -337,8 +337,16 @@ const CustomStageSize = ({
                 <div>
                     <button
                         className={styles.customStageSizeButton}
+                        data-selected={stageWidth === 360 && stageHeight === 360}
+                        data-square={true}
+                        onClick={() => onStagePresetUsed(2)}
+                    >
+                        1:1
+                    </button>
+                    <button
+                        className={styles.customStageSizeButton}
                         data-selected={stageWidth === 480 && stageHeight === 360}
-                        onClick={() => onStagePresetUsed(false)}
+                        onClick={() => onStagePresetUsed(0)}
                     >
                         4:3
                     </button>
@@ -346,7 +354,7 @@ const CustomStageSize = ({
                         className={styles.customStageSizeButton}
                         data-selected={stageWidth === 640 && stageHeight === 360}
                         data-widescreen={true}
-                        onClick={() => onStagePresetUsed(true)}
+                        onClick={() => onStagePresetUsed(1)}
                     >
                         16:9
                     </button>
