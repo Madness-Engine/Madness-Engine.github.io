@@ -62,13 +62,13 @@ import sharkpoolGalleryIcon from './penguinmod/sharkpool-library.svg';
 import turboBuilderIcon from './penguinmod/turbobuilder.png';
 import turboBuilderDevIcon from './penguinmod/turbobuilder-dev.png';
 
-import filesExtensionIcon from './penguinmod/extensions/files.png';
+import filesExtensionIcon from './penguinmod/extensions/files.svg';
 import jgJSONExtensionIcon from './penguinmod/extensions/json.png';
 import jgTailgatingExtensionIcon from './penguinmod/extensions/tailgating.png';
-import jgRuntimeExtensionIcon from './penguinmod/extensions/runtime.png';
+import jgRuntimeExtensionIcon from './penguinmod/extensions/runtime.svg';
 import jgPrismExtensionIcon from './penguinmod/extensions/prism.png';
 
-import jwProtoExtensionIcon from './penguinmod/extensions/proto.png';
+import jwProtoExtensionIcon from './penguinmod/extensions/proto.svg';
 import jwUniteExtensionIcon from './penguinmod/extensions/Unite.png';
 import jwXmlExtensionIcon from './penguinmod/extensions/xml.png';
 
@@ -94,14 +94,14 @@ import griffpatchPhysicsIcon from './penguinmod/extensions/griffpatch_physicsIco
 import gp from './penguinmod/extensions/gamepad.svg';
 import clippingblending from './penguinmod/extensions/clippingblending.svg';
 
-import pointerlockThumb from './penguinmod/extensions/pointerlock.svg';
+import pointerlockThumb from './penguinmod/extensions/pointerlock.png';
 import cursorThumb from './penguinmod/extensions/cursor.svg';
 
 // LilyMakesThings 🙏
 // import lmsMcUtilsIcon from './penguinmod/extensions/mcutils.png';
 
 // more icons so they arent just red when the extension color is not red
-import gsaTempVariablesExtensionIcon from './penguinmod/extensions/tempvariables.png';
+import gsaTempVariablesExtensionIcon from './penguinmod/extensions/tempvariables.svg';
 import gsaColorUtilExtensionIcon from './penguinmod/extensions/colorutil.png';
 import jgIframeExtensionIcon from './penguinmod/extensions/iframe.png';
 import jgExtendedAudioExtensionIcon from './penguinmod/extensions/extendedaudio.png';
@@ -128,12 +128,12 @@ import fr3dPhysicsInsetExtensionIcon from './penguinmod/extensions/3d_physics_ic
 import jgVrExtensionIcon from './penguinmod/extensions/vr_extension.png';
 
 import theshovelCustomStylesIcon from './penguinmod/orgtw/CustomStyles.svg';
-import theshovelCanvasEffectsIcon from './penguinmod/extensions/canvas_effects.png';
+import theshovelCanvasEffectsIcon from './penguinmod/extensions/canvas_effects.svg';
 import theshovelLzCompressIcon from './penguinmod/orgtw/lz-compress2.svg';
 import theshovelColorPickerIcon from './penguinmod/orgtw/ColorPicker.svg';
 
 // sharkpool
-import sharkpoolPrintingIcon from './penguinmod/extensions/printing.png';
+import sharkpoolPrintingIcon from './penguinmod/extensions/printing.svg';
 import jgScriptsExtensionIcon from './penguinmod/extensions/scripts.svg';
 
 // events
@@ -379,7 +379,7 @@ const menuItems = [
         tags: ['penguinmod', 'categoryexpansion'],
         description: 'More control blocks for animations, complex systems or cleaner one-time use blocks.',
         featured: true,
-        credits: '"new thread" by CubesterYT, CST1229'
+        credits: '"new thread" by CubesterYT, CST1229, SharkPool'
     },
     {
         name: 'Sensing Expansion',

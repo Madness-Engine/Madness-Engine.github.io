@@ -323,24 +323,6 @@ export default async ({ addon, console, msg }) => {
         vm.runtime.audioEngine.inputNode.connect(mediaStreamDestination);
         const audioSource = ctx.createMediaStreamSource(mediaStreamDestination.stream);
         audioSource.connect(dest);
-        // extended audio should be recorded
-        if ("ext_jgExtendedAudio" in vm.runtime) {
-          const extension = vm.runtime.ext_jgExtendedAudio;
-          const helper = extension.helper;
-          // audio context might not be created, make it for him
-          if (!helper.audioContext) helper.audioContext = new AudioContext();
-          // gain node for volume slidor might not be created, make it for him
-          if (!helper.audioGlobalVolumeNode) {
-            helper.audioGlobalVolumeNode = helper.audioContext.createGain();
-            helper.audioGlobalVolumeNode.gain.value = vm.runtime.audioEngine.inputNode.gain.value;
-            helper.audioGlobalVolumeNode.connect(helper.audioContext.destination);
-          }
-          // create media stream
-          const mediaStreamDestination = helper.audioContext.createMediaStreamDestination();
-          helper.audioGlobalVolumeNode.connect(mediaStreamDestination);
-          const audioSource = ctx.createMediaStreamSource(mediaStreamDestination.stream);
-          audioSource.connect(dest);
-        }
         // literally any other extension
         for (const audioData of vm.runtime._extensionAudioObjects.values()) {
           if (audioData.audioContext && audioData.gainNode) {
